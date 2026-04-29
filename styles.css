@@ -1,0 +1,79 @@
+body {
+    background: #0b0c10;
+    color: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 40px}
+
+.center-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.notifications {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+.incoming {
+    background: #007aff;
+    color:white;
+    margin-right: auto;
+}
+
+.message {
+  width: 100%;              
+  box-sizing: border-box;   
+
+  background: #2f6fff;
+  color: white;
+
+  padding: 10px 14px;
+  margin: 10px 0;
+  border-radius: 10px;
+
+  text-align: left;         
+}
+
+.message-container {
+  max-width: 600px;
+  margin: 40px auto;   
+}
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid #e6e6e6;
+  color: #e6e6e6;
+  padding: 10px 16px;
+  width: 220px;
+  text-align: center;
+  display: block;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.cta {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  gap: 12px;
+  margin-top: 30px;
+}
